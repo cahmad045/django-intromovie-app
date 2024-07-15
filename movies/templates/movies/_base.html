@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>{{page}}</title>
+    </head>
+    <body>
+        <div>
+            <a href="{% url "index" %}">Fav_movies</a>
+            <a href="{% url "about" %}">About</a>
+        </div>
+        {% block content  %}{% endblock  %}
+    </body>
+</html>
